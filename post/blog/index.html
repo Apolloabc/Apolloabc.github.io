@@ -12,32 +12,34 @@
     
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="新建并上传hugo博客"/>
-<meta name="twitter:description" content="新建并上传hugo博客\n July 2, 2019\n
-scoop包管理工具下载安装包时默认从国外网下载，体验较差，还是自己从国内镜像下载吧（跟maven设置镜像应该是一样的原理）。\n
-第一步：安装git http://npm.taobao.org/mirrors/git-for-windows/
-第二步：安装hugo https://gohugo.io/getting-started/installing/
-第三步：新建站点 E:\Blog\Sites&gt; hugo new site my-blog
-第四步：下载主题 E:\Blog\Sites\my-blog&gt;git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c
-第五步：本机部署 E:\Blog\Sites\my-blog&gt;hugo server -t m10c &ndash;buildDrafts http://localhost:1313/
-第六步：新建博客 E:\Blog\Sites\my-blog&gt;hugo new post/blog.md 编辑博客（VS Code）
-第七步：重复第五步
-第八步：新建github仓库，在本机准备站点（生成public文件夹）\n
-E:\Blog\Sites\my-blog&gt;hugo &ndash;theme=m10c &ndash;baseUrl=&ldquo;https://Apolloabc.github.io/&quot; &ndash;buildDrafts
-第九步：git操作 E:\Blog\Sites\my-blog\public&gt;git init\n E:\Blog\Sites\my-blog\public&gt;git add .\n E:\Blog\Sites\my-blog\public&gt;git commit -m &ldquo;我的hugo博客，第一次提交&rdquo;\n E:\Blog\Sites\my-blog\public&gt;git remote add origin https://github.com/Apolloabc/Apolloabc.github.io.git \n E:\Blog\Sites\my-blog\public&gt;git push -u origin master\n https://apolloabc.github.io/"/>
+<meta name="twitter:description" content="新建并上传hugo博客 July 19, 2019  scoop包管理工具下载安装包时默认从国外网下载，体验较差，还是自己从国内镜像下载吧（跟maven设置镜像应该是一样的原理）。
+  第一步：安装git
+ 第二步：安装hugo
+ 第三步：新建站点 E:\Blog\Sites&gt; hugo new site my-blog
+ 第四步：下载主题 E:\Blog\Sites\my-blog&gt;git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c
+ 第五步：本机部署 E:\Blog\Sites\my-blog&gt;hugo server -t m10c --buildDrafts
+  ​ 访问本机部署的博客 http://localhost:1313/
+ 第六步：新建博客 E:\Blog\Sites\my-blog&gt;hugo new post/blog.md 编辑博客（Typora）
+ 第七步：重复第五步
+ 第八步①：新建github仓库，在本机准备站点（生成public文件夹） E:\Blog\Sites\my-blog&gt;hugo --theme=m10c --baseUrl=&quot;https://Apolloabc.github.io/&quot; --buildDrafts
+ 第八步②：git操作
+  (```)
+​ E:\Blog\Sites\my-blog\public&gt;git init ​ E:\Blog\Sites\my-blog\public&gt;git add . ​ E:\Blog\Sites\my-blog\public&gt;git commit -m &ldquo;我的hugo博客，第一次提交&rdquo; ​ E:\Blog\Sites\my-blog\public&gt;git remote add origin https://github."/>
 
     <meta property="og:title" content="新建并上传hugo博客" />
-<meta property="og:description" content="新建并上传hugo博客\n July 2, 2019\n
-scoop包管理工具下载安装包时默认从国外网下载，体验较差，还是自己从国内镜像下载吧（跟maven设置镜像应该是一样的原理）。\n
-第一步：安装git http://npm.taobao.org/mirrors/git-for-windows/
-第二步：安装hugo https://gohugo.io/getting-started/installing/
-第三步：新建站点 E:\Blog\Sites&gt; hugo new site my-blog
-第四步：下载主题 E:\Blog\Sites\my-blog&gt;git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c
-第五步：本机部署 E:\Blog\Sites\my-blog&gt;hugo server -t m10c &ndash;buildDrafts http://localhost:1313/
-第六步：新建博客 E:\Blog\Sites\my-blog&gt;hugo new post/blog.md 编辑博客（VS Code）
-第七步：重复第五步
-第八步：新建github仓库，在本机准备站点（生成public文件夹）\n
-E:\Blog\Sites\my-blog&gt;hugo &ndash;theme=m10c &ndash;baseUrl=&ldquo;https://Apolloabc.github.io/&quot; &ndash;buildDrafts
-第九步：git操作 E:\Blog\Sites\my-blog\public&gt;git init\n E:\Blog\Sites\my-blog\public&gt;git add .\n E:\Blog\Sites\my-blog\public&gt;git commit -m &ldquo;我的hugo博客，第一次提交&rdquo;\n E:\Blog\Sites\my-blog\public&gt;git remote add origin https://github.com/Apolloabc/Apolloabc.github.io.git \n E:\Blog\Sites\my-blog\public&gt;git push -u origin master\n https://apolloabc.github.io/" />
+<meta property="og:description" content="新建并上传hugo博客 July 19, 2019  scoop包管理工具下载安装包时默认从国外网下载，体验较差，还是自己从国内镜像下载吧（跟maven设置镜像应该是一样的原理）。
+  第一步：安装git
+ 第二步：安装hugo
+ 第三步：新建站点 E:\Blog\Sites&gt; hugo new site my-blog
+ 第四步：下载主题 E:\Blog\Sites\my-blog&gt;git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c
+ 第五步：本机部署 E:\Blog\Sites\my-blog&gt;hugo server -t m10c --buildDrafts
+  ​ 访问本机部署的博客 http://localhost:1313/
+ 第六步：新建博客 E:\Blog\Sites\my-blog&gt;hugo new post/blog.md 编辑博客（Typora）
+ 第七步：重复第五步
+ 第八步①：新建github仓库，在本机准备站点（生成public文件夹） E:\Blog\Sites\my-blog&gt;hugo --theme=m10c --baseUrl=&quot;https://Apolloabc.github.io/&quot; --buildDrafts
+ 第八步②：git操作
+  (```)
+​ E:\Blog\Sites\my-blog\public&gt;git init ​ E:\Blog\Sites\my-blog\public&gt;git add . ​ E:\Blog\Sites\my-blog\public&gt;git commit -m &ldquo;我的hugo博客，第一次提交&rdquo; ​ E:\Blog\Sites\my-blog\public&gt;git remote add origin https://github." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://Apolloabc.github.io/post/blog/" />
 <meta property="article:published_time" content="2019-07-02T19:57:38&#43;08:00"/>
@@ -76,34 +78,60 @@ E:\Blog\Sites\my-blog&gt;hugo &ndash;theme=m10c &ndash;baseUrl=&ldquo;https://Ap
         </div></div>
     </header>
     <div class="post-content">
-      <p>新建并上传hugo博客\n
-July 2, 2019\n</p>
+      
 
-<p>scoop包管理工具下载安装包时默认从国外网下载，体验较差，还是自己从国内镜像下载吧（跟maven设置镜像应该是一样的原理）。\n</p>
+<h1 id="新建并上传hugo博客">新建并上传hugo博客</h1>
 
-<p>第一步：安装git       <a href="http://npm.taobao.org/mirrors/git-for-windows/">http://npm.taobao.org/mirrors/git-for-windows/</a></p>
+<h2 id="july-19-2019">July 19, 2019</h2>
 
-<p>第二步：安装hugo    <a href="https://gohugo.io/getting-started/installing/">https://gohugo.io/getting-started/installing/</a></p>
+<hr />
 
-<p>第三步：新建站点    E:\Blog\Sites&gt; hugo new site my-blog</p>
+<blockquote>
+<p>scoop包管理工具下载安装包时默认从国外网下载，体验较差，还是自己从<strong>国内镜像</strong>下载吧（跟maven设置镜像应该是一样的原理）。</p>
+</blockquote>
 
-<p>第四步：下载主题    E:\Blog\Sites\my-blog&gt;git clone <a href="https://github.com/vaga/hugo-theme-m10c.git">https://github.com/vaga/hugo-theme-m10c.git</a> themes/m10c</p>
+<hr />
 
-<p>第五步：本机部署    E:\Blog\Sites\my-blog&gt;hugo server -t m10c &ndash;buildDrafts <a href="http://localhost:1313/">http://localhost:1313/</a></p>
+<ul>
+<li><p>第一步：<a href="http://npm.taobao.org/mirrors/git-for-windows/">安装git</a></p></li>
 
-<p>第六步：新建博客    E:\Blog\Sites\my-blog&gt;hugo new post/blog.md     编辑博客（VS Code）</p>
+<li><p>第二步：<a href="https://gohugo.io/getting-started/installing/">安装hugo</a></p></li>
 
-<p>第七步：重复第五步</p>
+<li><p>第三步：新建站点  <code>E:\Blog\Sites&gt; hugo new site my-blog</code></p></li>
 
-<p>第八步：新建github仓库，在本机准备站点（生成public文件夹）\n<br />
-        E:\Blog\Sites\my-blog&gt;hugo &ndash;theme=m10c &ndash;baseUrl=&ldquo;<a href="https://Apolloabc.github.io/&quot;">https://Apolloabc.github.io/&quot;</a> &ndash;buildDrafts</p>
+<li><p>第四步：下载主题    <code>E:\Blog\Sites\my-blog&gt;git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c</code></p></li>
 
-<p>第九步：git操作   E:\Blog\Sites\my-blog\public&gt;git init\n
-        E:\Blog\Sites\my-blog\public&gt;git add .\n
-        E:\Blog\Sites\my-blog\public&gt;git commit -m &ldquo;我的hugo博客，第一次提交&rdquo;\n
-        E:\Blog\Sites\my-blog\public&gt;git remote add origin <a href="https://github.com/Apolloabc/Apolloabc.github.io.git">https://github.com/Apolloabc/Apolloabc.github.io.git</a> \n
-        E:\Blog\Sites\my-blog\public&gt;git push -u origin master\n
-        <a href="https://apolloabc.github.io/">https://apolloabc.github.io/</a></p>
+<li><p>第五步：本机部署    <code>E:\Blog\Sites\my-blog&gt;hugo server -t m10c --buildDrafts</code></p></li>
+</ul>
+
+<p>​               访问本机部署的博客 <a href="http://localhost:1313/">http://localhost:1313/</a></p>
+
+<ul>
+<li><p>第六步：新建博客  <code>E:\Blog\Sites\my-blog&gt;hugo new post/blog.md</code>       编辑博客（Typora）</p></li>
+
+<li><p>第七步：重复第五步</p></li>
+
+<li><p>第八步①：新建github仓库，在本机准备站点（生成public文件夹）
+    <code>E:\Blog\Sites\my-blog&gt;hugo --theme=m10c --baseUrl=&quot;https://Apolloabc.github.io/&quot; --buildDrafts</code></p></li>
+
+<li><p>第八步②：git操作</p></li>
+</ul>
+
+<p>(```)</p>
+
+<p>​        E:\Blog\Sites\my-blog\public&gt;git init
+  ​     E:\Blog\Sites\my-blog\public&gt;git add .
+  ​     E:\Blog\Sites\my-blog\public&gt;git commit -m &ldquo;我的hugo博客，第一次提交&rdquo;
+  ​     E:\Blog\Sites\my-blog\public&gt;git remote add origin <a href="https://github.com/Apolloabc/Apolloabc.github.io.git">https://github.com/Apolloabc/Apolloabc.github.io.git</a>
+  ​     E:\Blog\Sites\my-blog\public&gt;git push -u origin master\n</p>
+
+<p>(```)</p>
+
+<ul>
+<li>第九步：通过公网访问发布在github中的博客  <a href="https://apolloabc.github.io/">https://apolloabc.github.io/</a>
+
+<br /></li>
+</ul>
 
     </div>
     <div class="post-footer">
