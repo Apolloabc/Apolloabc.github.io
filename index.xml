@@ -17,18 +17,20 @@
       <pubDate>Fri, 19 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://Apolloabc.github.io/post/blog/</guid>
-      <description>新建并上传hugo博客 July 19, 2019  scoop包管理工具下载安装包时默认从国外网下载，体验较差，还是自己从国内镜像下载吧（跟maven设置镜像应该是一样的原理）。
+      <description>&amp;emsp; 新建并上传hugo博客 &amp;emsp; July 19, 2019  scoop包管理工具下载安装包时默认从国外网下载，体验较差，还是自己从国内镜像下载吧（跟maven设置镜像应该是一样的原理）。
   第一步：安装git
  第二步：安装hugo
  第三步：新建站点 E:\Blog\Sites&amp;gt; hugo new site my-blog
  第四步：下载主题 E:\Blog\Sites\my-blog&amp;gt;git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c
  第五步：本机部署 E:\Blog\Sites\my-blog&amp;gt;hugo server -t m10c --buildDrafts
-  ​ 访问本机部署的博客 http://localhost:1313/
+  &amp;emsp; 访问本机部署的博客 http://localhost:1313/
  第六步：新建博客 E:\Blog\Sites\my-blog&amp;gt;hugo new post/blog.md 编辑博客（Typora）
  第七步：重复第五步
- 第八步①：新建github仓库，在本机准备站点（生成public文件夹） E:\Blog\Sites\my-blog&amp;gt;hugo --theme=m10c --baseUrl=&amp;quot;https://Apolloabc.github.io/&amp;quot; --buildDrafts
- 第八步②：git操作
-   ​ E:\Blog\Sites\my-blog\public&amp;gt;git init ​ E:\Blog\Sites\my-blog\public&amp;gt;git add . ​ E:\Blog\Sites\my-blog\public&amp;gt;git commit -m &amp;ldquo;我的hugo博客，第一次提交&amp;rdquo; ​ E:\Blog\Sites\my-blog\public&amp;gt;git remote add origin</description>
+ 第八步①：新建github仓库，在本机准备站点（生成public文件夹）
+  &amp;emsp; E:\Blog\Sites\my-blog&amp;gt;hugo --theme=m10c --baseUrl=&amp;quot;https://Apolloabc.github.io/&amp;quot; --buildDrafts
+ 第八步②：git操作  &amp;emsp; E:\Blog\Sites\my-blog\public&amp;gt;git init
+&amp;emsp; E:\Blog\Sites\my-blog\public&amp;gt;git add .
+&amp;emsp; E:\Blog\Sites\my-blog\public&amp;gt;git commit -m &amp;ldquo;我的hugo博客，第一次提交&amp;rdquo;</description>
     </item>
     
   </channel>
